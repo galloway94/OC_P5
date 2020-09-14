@@ -1,0 +1,20 @@
+{
+    "name": "cle/oc_p5",
+    "description": "Projet OpenClassrooms de blog personnel",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Claire Combastel",
+            "email": "claire.combastel@outlook.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "oc_p5\\": "/"
+        }
+    },
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
